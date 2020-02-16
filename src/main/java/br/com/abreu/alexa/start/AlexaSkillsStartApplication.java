@@ -1,0 +1,13 @@
+package br.com.abreu.alexa.start;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class AlexaSkillsStartApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(AlexaSkillsStartApplication.class, args);
+	}
+
+}
